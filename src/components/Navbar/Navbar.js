@@ -9,6 +9,7 @@ import { MdPhone } from 'react-icons/md';
 import Fade from 'react-reveal/Fade';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
+import { contactsData } from '../../data/contactsData';
 import styles from '../../styles/navbar.module.css';
 import Link from '../link';
 
@@ -114,7 +115,7 @@ function Navbar() {
 
                         <Fade left>
                             <Link
-                                href='/#resume'
+                                href={headerData.resumePdf}
                             >
                                 <div className="my-[2em] mx-auto rounded-[78.8418px] text-[#1D9BF0] bg-[#15202B] sm:w-[85%] w-[100%] h-[55px] sm:h-[60px] flex items-center justify-evenly px-[25px] sm:px-[30px] box-border border-2 border-[#1D9BF0] hover:text-[#15202B] hover:bg-[#1D9BF0] transition-colors">
                                     <HiDocumentText
@@ -159,7 +160,7 @@ function Navbar() {
 
                         <Fade left>
                             <Link
-                                href='/#contacts'
+                                href={`mailto:${contactsData.email}`}
                             >
                                 <div className="my-[2em] mx-auto rounded-[78.8418px] text-[#1D9BF0] bg-[#15202B] sm:w-[85%] w-[100%] h-[55px] sm:h-[60px] flex items-center justify-evenly px-[25px] sm:px-[30px] box-border border-2 border-[#1D9BF0] hover:text-[#15202B] hover:bg-[#1D9BF0] transition-colors">
                                     <MdPhone className="text-xl sm:text-2xl" />

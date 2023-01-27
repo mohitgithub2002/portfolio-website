@@ -92,7 +92,8 @@ function Landing() {
                 </div>
                 <Image
                     src={headerData.image}
-                    alt=''
+                    alt='profile'
+                    priority // load first
                     width={350}
                     height={350}
                     className={styles.landingImg}

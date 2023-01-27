@@ -69,7 +69,7 @@ function Contacts() {
                     <div className={styles.contactsForm}>
                         <form ref={form} onSubmit={handleContactForm}>
                             <div className={styles.inputContainer}>
-                                <label htmlFor='Name' className="bg-[#15202B] text-[#EFF3F4] font-semibold text-[0.9rem] py-0 px-[5px] inline-flex translate-x-[25px] translate-y-[50%]">
+                                <label htmlFor='Name' style={{ backgroundColor: theme.secondary }} className=" text-[#EFF3F4] font-semibold text-[0.9rem] py-0 px-[5px] inline-flex translate-x-[25px] translate-y-[50%] dark:text-[#292b2c]">
                                     Name
                                 </label>
                                 <input
@@ -78,13 +78,15 @@ function Contacts() {
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
                                     name='user_name'
-                                    className={`${styles.formInput}  border-2 border-[#8B98A5] bg-[#15202B] text-[#EFF3F4] font-medium transition focus:border-[#1D9BF0]`}
+                                    style={{ backgroundColor: theme.secondary }}
+                                    className={`${styles.formInput}  border-2 border-[#8B98A5] bg-[#15202B] text-[#EFF3F4] font-medium transition focus:border-[#1D9BF0] dark:text-[#292b2c]`}
                                 />
                             </div>
                             <div className={styles.inputContainer}>
                                 <label
                                     htmlFor='Email'
-                                    className="bg-[#15202B] text-[#EFF3F4] font-semibold text-[0.9rem] px-[5px] inline-flex translate-x-[25px] translate-y-[50%]"
+                                    style={{ backgroundColor: theme.secondary }}
+                                    className="bg-[#15202B] text-[#EFF3F4] font-semibold text-[0.9rem] px-[5px] inline-flex translate-x-[25px] translate-y-[50%] dark:text-[#292b2c]"
                                 >
                                     Email
                                 </label>
@@ -94,13 +96,15 @@ function Contacts() {
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
                                     name='user_email'
-                                    className={`${styles.formInput}  border-2 border-[#8B98A5] bg-[#15202B] text-[#EFF3F4] font-medium transition focus:border-[#1D9BF0]`}
+                                    style={{ backgroundColor: theme.secondary }}
+                                    className={`${styles.formInput}  border-2 border-[#8B98A5] bg-[#15202B] text-[#EFF3F4] font-medium transition focus:border-[#1D9BF0] dark:text-[#292b2c]`}
                                 />
                             </div>
                             <div className={styles.inputContainer}>
                                 <label
                                     htmlFor='Message'
-                                    className="bg-[#15202B] text-[#EFF3F4] font-semibold text-[0.9rem] px-[5px] inline-flex translate-x-[25px] translate-y-[50%]"
+                                    style={{ backgroundColor: theme.secondary }}
+                                    className="bg-[#15202B] text-[#EFF3F4] font-semibold text-[0.9rem] px-[5px] inline-flex translate-x-[25px] translate-y-[50%] dark:text-[#292b2c]"
                                 >
                                     Message
                                 </label>
@@ -110,8 +114,8 @@ function Contacts() {
                                     onChange={(e) => setMessage(e.target.value)}
                                     type='text'
                                     name='message'
-                                    className={`${styles.formMessage} border-2 border-[#8B98A5] focus:border-[#1D9BF0] bg-[#15202B] text-[#EFF3F4] font-medium transition
-`}
+                                    style={{ backgroundColor: theme.secondary }}
+                                    className={`${styles.formMessage} border-2 border-[#8B98A5] focus:border-[#1D9BF0] bg-[#15202B] text-[#EFF3F4] font-medium transition dark:text-[#292b2c]`}
                                 />
                             </div>
 

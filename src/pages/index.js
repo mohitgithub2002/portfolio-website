@@ -10,10 +10,10 @@ function HomePage() {
       <Navbar />
       <Landing />
       <About />
-      <Experience />
-      <Skills />
-      <Projects />
       <Education />
+      <Skills />
+      <Experience />
+      <Projects />
       {/* <Blog /> */}
       <Contacts />
     </>
