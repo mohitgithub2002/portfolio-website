@@ -15,8 +15,8 @@ export const theLightTheme = {
 export const theDarkTheme = {
     type: 'dark',
     primary: '#1D9BF0',
-    quaternary: '#1E2732',
-    secondary: '#15202B',
+    quaternary: '#2e2e2e',
+    secondary: '#1b1b1b',
     tertiary: '#EFF3F4',
     buttonColor: '#8B98A5',
     quaternaryLight: '#8b98a5',

@@ -14,8 +14,8 @@ export const projectsData = [
         id: 1,
         projectName: 'BID Impact Program',
         projectDesc: 'This project is a BID Impact Program Website.',
-        tags: ['React', 'Node.js', 'Tailwind CSS'],
-        code: '',
+        tags: ['NextJs', 'Node.js', 'Tailwind CSS'],
+        code: 'https://github.com/mohitgithub2002/Impact-Program',
         demo: 'https://www.holondao.org/',
         image: program
     },
@@ -33,54 +33,9 @@ export const projectsData = [
         projectName: 'Portfolio Website',
         projectDesc: 'This project is my personal portfolio website.',
         tags: ['Next JS', 'React', 'Material Ui'],
-        code: '',
+        code: 'https://github.com/mohitgithub2002/portfolio-website',
         demo: 'https://moh1t.tech/',
         image: portfolio
-    },
-    {
-        id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: four
-    },
-    {
-        id: 5,
-        projectName: 'E-Commerce App',
-        projectDesc: 'A Simple E-commerce application',
-        tags: ['React Native', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: five
-    },
-    {
-        id: 6,
-        projectName: 'Uber Lite',
-        projectDesc: 'Uber clone',
-        tags: ['Flutter'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: one
-    },
-    {
-        id: 7,
-        projectName: 'Stock Market App',
-        projectDesc: 'A simple stock market API app',
-        tags: ['React', 'Redux', 'Bootstrap'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: two
-    },
-    {
-        id: 8,
-        projectName: 'Car Pooling System',
-        projectDesc: 'The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution',
-        tags: ['Flutter', 'React'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: three
     },
 ]
 
