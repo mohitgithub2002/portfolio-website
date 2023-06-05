@@ -1,4 +1,5 @@
 import eight from '../assets/svg/projects/eight.svg'
+import eleven from '../assets/svg/projects/eleven.svg'
 import five from '../assets/svg/projects/five.svg'
 import four from '../assets/svg/projects/four.svg'
 import one from '../assets/svg/projects/one.svg'
@@ -11,31 +12,31 @@ import program from '../assets/svg/projects/program.svg'
 import portfolio from '../assets/svg/projects/portfolio.svg'
 export const projectsData = [
     {
-        id: 1,
+        id: 3,
         projectName: 'BID Impact Program',
         projectDesc: 'This project is a BID Impact Program Website.',
         tags: ['NextJs', 'Node.js', 'Tailwind CSS'],
         code: 'https://github.com/mohitgithub2002/Impact-Program',
-        demo: 'https://www.holondao.org/',
-        image: program
+        demo: 'https://impact-program.moh1t.tech/',
+        image: eleven
     },
     {
-        id: 2,
-        projectName: 'Smart Contract Dapp',
-        projectDesc: 'This project is a ethereum based dapp for authentication and authorization run on goeril testnet.',
+        id: 1,
+        projectName: 'BlockEstate',
+        projectDesc: 'This is a decentralised Land registry platform for secure and transparent transactions in RealEstate',
         tags: ['React', 'Solidity', 'ethers.js'],
-        code: 'https://github.com/mohitgithub2002/SmartContract-Interaction',
-        demo: 'https://smartcontract.moh1t.tech/',
+        code: 'https://github.com/akshatgadodia/it-day-hackathon',
+        demo: 'https://blockcoders.vercel.app/',
         image: smartcontract
     },
     {
-        id: 3,
-        projectName: 'Portfolio Website',
-        projectDesc: 'This project is my personal portfolio website.',
-        tags: ['Next JS', 'React', 'Material Ui'],
-        code: 'https://github.com/mohitgithub2002/portfolio-website',
-        demo: 'https://moh1t.tech/',
-        image: portfolio
+        id: 2,
+        projectName: 'BTC Price Prediction dapp',
+        projectDesc: 'Forecast the price using historical data from the past four years',
+        tags: ['React JS', 'Solidity', 'Ethers JS'],
+        code: 'https://github.com/mohitgithub2002/Burn-Token-',
+        demo: 'https://btcprediction.moh1t.tech/',
+        image: program
     },
 ]
 
