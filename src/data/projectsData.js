@@ -11,15 +11,7 @@ import smartcontract from '../assets/svg/projects/smartcontract.svg'
 import program from '../assets/svg/projects/program.svg'
 import portfolio from '../assets/svg/projects/portfolio.svg'
 export const projectsData = [
-    {
-        id: 3,
-        projectName: 'BID Impact Program',
-        projectDesc: 'This project is a BID Impact Program Website.',
-        tags: ['NextJs', 'Node.js', 'Tailwind CSS'],
-        code: 'https://github.com/mohitgithub2002/Impact-Program',
-        demo: 'https://impact-program.moh1t.tech/',
-        image: eleven
-    },
+    
     {
         id: 1,
         projectName: 'BlockEstate',
@@ -37,6 +29,15 @@ export const projectsData = [
         code: 'https://github.com/mohitgithub2002/Burn-Token-',
         demo: 'https://btcprediction.moh1t.tech/',
         image: program
+    },
+    {
+        id: 3,
+        projectName: 'BID Impact Program',
+        projectDesc: 'This project is a BID Impact Program Website.',
+        tags: ['NextJs', 'Node.js', 'Tailwind CSS'],
+        code: 'https://github.com/mohitgithub2002/Impact-Program',
+        demo: 'https://impact-program.moh1t.tech/',
+        image: eleven
     },
 ]
 
